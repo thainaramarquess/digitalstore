@@ -58,10 +58,11 @@ const Collection = () => {
           </div>
         </div>
       
-
+          {/* Espaçamento entre seções */}
+          <div className="my-10"></div>
     {/* Nova seção: Categorias em destaque */}
             <div className="text-center">
-            <h2 className="text-2xl font-bold text-white mb-6">
+            <h2 className="text-2xl font-bold text-black mb-6">
             Coleção em destaque
             </h2>
             <div className="flex justify-center space-x-6">
@@ -70,7 +71,7 @@ const Collection = () => {
                 <div className="w-16 h-16 bg-gray-700 text-white rounded-full flex items-center justify-center text-2xl">
                 <FaTshirt />
                 </div>
-                <span className="text-white mt-2">Camisetas</span>
+                <span className="text-black mt-2">Camisetas</span>
             </div>
 
             {/* Item 2 */}
@@ -78,7 +79,7 @@ const Collection = () => {
                 <div className="w-16 h-16 bg-gray-700 text-white rounded-full flex items-center justify-center text-2xl">
                 <FaShoppingBag />
                 </div>
-                <span className="text-white mt-2">Calças</span>
+                <span className="text-black mt-2">Calças</span>
             </div>
 
             {/* Item 3 */}
@@ -86,7 +87,7 @@ const Collection = () => {
                 <div className="w-16 h-16 bg-gray-700 text-white rounded-full flex items-center justify-center text-2xl">
                 <FaHatCowboy />
                 </div>
-                <span className="text-white mt-2">Bonês</span>
+                <span className="text-black mt-2">Bonês</span>
             </div>
 
             {/* Item 4 */}
@@ -94,7 +95,7 @@ const Collection = () => {
                 <div className="w-16 h-16 bg-gray-700 text-white rounded-full flex items-center justify-center text-2xl">
                 <FaHeadphones />
                 </div>
-                <span className="text-white mt-2">Headphone</span>
+                <span className="text-gray mt-2">Headphone</span>
             </div>
 
             {/* Item 5 */}
@@ -102,7 +103,7 @@ const Collection = () => {
                 <div className="w-16 h-16 bg-gray-700 text-white rounded-full flex items-center justify-center text-2xl">
                 <FaShoePrints />
                 </div>
-                <span className="text-white mt-2">Tênis</span>
+                <span className="text-gray mt-2">Tênis</span>
             </div>
             </div>
         </div>

@@ -33,7 +33,7 @@ const SectionGallery = () => {
 
   // Atualiza a cada 20 segundos
   useEffect(() => {
-    const interval = setInterval(nextSlide, 20000);
+    const interval = setInterval(nextSlide, 10000);
     return () => clearInterval(interval);
   }, []);
 
@@ -60,12 +60,22 @@ const SectionGallery = () => {
       </div>
 
       {/* Conteúdo */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center sm:text-left sm:left-10 sm:top-20 sm:transform-none">
-        <h1 className="text-white text-4xl sm:text-5xl font-semibold mb-4">Queima de estoque Nike 🔥</h1>
-        <p className="text-white text-lg mb-6">Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
-        <button className="px-8 py-3 bg-primary text-white rounded-lg hover:bg-tertiary transition duration-200">Ver Ofertas</button>
-      </div>
+      <div className="absolute top-1/2 left-10 transform -translate-y-1/2 text-left">
+      <p className="text-warning text-lg font-medium mb-2">
+        Melhores ofertas personalizadas
+      </p>
+      <h1 className="text-white text-5xl sm:text-6xl font-extrabold mb-4">
+        Queima de estoque Nike 🔥
+      </h1>
+      <p className="text-white text-lg mb-6 max-w-lg">
+        Consequat culpa exercitation mollit nisi excepteur do do tempor
+        laboris eiusmod irure consectetur.
+      </p>
+      <button className="px-8 py-3 bg-primary text-white rounded-lg hover:bg-tertiary transition duration-200">
+        Ver Ofertas
+      </button>
     </div>
+ </div>
   );
 };
 
