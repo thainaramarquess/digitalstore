@@ -1,5 +1,8 @@
-// Footer.jsx
 import React from 'react';
+import facebookImg from '../assets/facebook.svg';
+import instagramImg from '../assets/instagram.svg';
+import twitterImg from '../assets/twitter.svg';
+import logoImg from '../assets/logo-footer.svg';
 
 const Footer = () => {
   return (
@@ -10,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-col space-y-4">
           {/* Componente Logo */}
           <div className="logo mb-4">
-            <img src="src/assets/logo-footer.svg" alt="Logo da Digital Store" className="h-10" />
+            <img src={logoImg} alt="Logo da Digital Store" className="h-10" />
           </div>
   
           {/* Descrição da empresa */}
@@ -21,13 +24,13 @@ const Footer = () => {
           {/* Ícones de redes sociais */}
           <div className="flex space-x-4">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/facebook.svg" alt="Facebook" className="w-6 h-6 hover:text-gray-400" />
+              <img src={facebookImg} alt="Facebook" className="w-6 h-6 hover:text-gray-400" />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/instagram.svg" alt="Instagram" className="w-6 h-6 hover:text-gray-400" />
+              <img src={instagramImg} alt="Instagram" className="w-6 h-6 hover:text-gray-400" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/twitter.svg" alt="Twitter" className="w-6 h-6 hover:text-gray-400" />
+              <img src={twitterImg} alt="Twitter" className="w-6 h-6 hover:text-gray-400" />
             </a>
           </div>
         </div>
