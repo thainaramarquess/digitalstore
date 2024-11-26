@@ -1,9 +1,8 @@
-// src/components/Logo.jsx
 import React from 'react';
-import logo from '/src/assets/logo-header.svg'; // Atualize o caminho para o SVG
+import logoImg from '/src/assets/logo-header.svg';
 
 const Logo = () => (
-  <img src={logo} alt="Logo da Aplicação" className='w-42 ml-12' />
+  <img src={logoImg} alt="Logo da Aplicação" className='w-42 ml-12' />
 );
 
 export default Logo;

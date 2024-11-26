@@ -1,7 +1,6 @@
-// src/pages/HomePage.jsx
 import React from 'react';
-import Header from '../components/Header'; // Caminho para Header
-import Footer from '../components/Footer'; // Caminho para Footer
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SectionGallery from '../components/SectionGalery';
 import Collection from '../components/Collection';
 import ProductList from '../components/ProductList';
@@ -10,15 +9,16 @@ import OfferSection from '../components/OfferSection';
 const HomePage = () => {
     return (
         <div>
-            <Header />
-            <main>
-                {/* Conteúdo da página */}
-                <SectionGallery/>
-                <Collection/>
-                <ProductList/>
-                <OfferSection/>
+            <div className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+                <Header />
+            </div>
+            <main className="pt-16">
+                <SectionGallery />
+                <Collection />
+                <ProductList />
+                <OfferSection />
             </main>
-        <Footer />
+            <Footer />
         </div>
     );
 };
