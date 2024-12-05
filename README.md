@@ -12,7 +12,7 @@
 
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/thainaramarquess/digitalstore
+   git clone https://github.com/thainaramarquess/digitalstore.git
    cd digital-store
    ```  
 
