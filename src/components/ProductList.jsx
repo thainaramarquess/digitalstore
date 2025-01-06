@@ -12,7 +12,7 @@ const products = [
 ];
 
 const ProductCard = ({ product }) => (
-	<a href='/product/:id' className="flex flex-col relative">
+	<a href='/product/id_product' className="flex flex-col relative">
 		{product.promotion && (
 			<div className="absolute top-2 left-2 bg-[#E7FF86] text-dark-gray text-xs font-semibold px-3 py-1 rounded-full">
 				30% OFF
