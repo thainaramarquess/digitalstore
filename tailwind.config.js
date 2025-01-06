@@ -1,4 +1,5 @@
-module.exports = {
+import typography from '@tailwindcss/typography';
+export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -24,5 +25,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
-}
+  plugins: [typography],
+};
