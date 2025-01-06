@@ -28,6 +28,5 @@
 
 4. Acesse o projeto no navegador pelo endereço: [http://localhost:3000](http://localhost:3000).
 
-## Equipe
-Este projeto foi desenvolvido por Thainara Marques da Costa e Dany Luan Rodrigues Tavares. 
+
 
